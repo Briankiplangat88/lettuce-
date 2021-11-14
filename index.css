@@ -177,7 +177,7 @@ button {
     height: 525px;
     margin-bottom: -20px;
 }
-/* about us image */
+/* /* about us i */
 #about-us-image img {
     max-width: 100%;
 }
@@ -190,9 +190,6 @@ button {
     color: yellow;
     background-color: whitesmoke;
 }
-
-    
-
 
 .finals{
     display: flex;
