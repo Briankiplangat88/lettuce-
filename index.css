@@ -1,0 +1,237 @@
+#navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* logo-right */
+#logo-right {
+    color:yellow;
+}
+/* navmenu */
+#navmenu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    
+    color: white;
+    padding-top: 2px;
+    padding-right: 110px;
+    margin: 30px;
+
+}
+/* button */
+button {
+    background-color: yellow;
+    width: 180px;
+    height: 45px;
+    color: white;
+    border: none;
+}
+
+/* hero-section */
+.navigation{
+    background-image: url("image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+}
+/* cusomer service paragraph */
+.hero-section p:first-child {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+/* hero section second paragraph */
+.hero-section >:nth-child(2) {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+}
+/* services bar section  */
+.servicesbar{
+    text-align: center;
+    background-color: whitesmoke;
+    align-content: space-between;
+}
+/* menu section */
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+    
+}
+/* drink section */
+.drink{
+    text-align: center;
+    margin: 50px;
+    padding-left: 30px;
+    border: solid;
+    height: 210px;
+    width: 260px;
+    background-color: white;
+    color: grey;
+    border-style: inherit;
+
+
+}
+/* keep section */
+.keep{
+    text-align: center;
+    margin: 50px;
+    padding-left: 30px;
+    border: solid;
+    height: 210px;
+    width: 260px;
+    background-color: white;
+    color: grey;
+    border-style: inherit;
+
+}
+/* fruit section */
+.fruit{
+    text-align: center;
+    margin: 50px;
+    padding-left: 30px;
+    border: solid;
+    height: 210px;
+    width: 260px;
+    background-color: white;
+    color: grey;
+    border-style: inherit;
+
+}
+/* menu button */
+.menu button{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+/* about us section */
+.about-us {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-bottom: 40px;
+    background-color: black;
+}
+/* about us description */
+#about-us-text {
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+/* about us heading */
+#about-us-text >:first-child {
+    font-size: 28px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: white;
+}
+/* delivery about us */
+#about-us-text >:nth-child(2) {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: white;
+}
+/* paragraph about us */
+#about-us-text >:nth-child(3) {
+    font-size: 18px;
+    margin-bottom: 60px;
+    font-weight: 50;
+    line-height: 38px;
+    color: white;
+}
+
+/* about us image div */
+#about-us-image {
+    position: relative;
+    width: 50%;
+    left: -100px;
+    top: 25px;
+    padding-left: 100px;
+    height: 525px;
+    margin-bottom: -20px;
+}
+/* about us image */
+#about-us-image img {
+    max-width: 100%;
+}
+/* menu section */
+.menus{
+    background-color:whitesmoke;
+
+}
+.menus h2{
+    color: yellow;
+    background-color: whitesmoke;
+}
+
+    
+
+
+.finals{
+    display: flex;
+    border: solid;
+    border-style: inherit;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+   
+}
+#footer{
+    background-image: url("image8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width:1200px ;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+#footer p {
+     font-weight:800 ;
+     color: white;
+     margin-top: 30px;
+     margin-bottom: 70px;
+}
+#footer h3{
+font-weight: 800;
+color: white;
+padding-bottom: 40px;
+}
+#footer button{
+    background-color: black;
+    border: solid;
+    border-style: groove;
+    color: white;
+}
+#footer :nth-child(4){
+    margin-top: 75px;
+}
